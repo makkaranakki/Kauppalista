@@ -1,2 +1,2 @@
-web: gunicorn run:kauppalista kauppalista:app
-heroku ps:scale web=1 --app kauppalista
+web: sh -c 'cd ./env/ && gunicorn kauppalista:app'
+
