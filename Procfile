@@ -1,2 +1,2 @@
-web: sh -c 'cd ./env/ && gunicorn kauppalista:app'
+web: sh -c 'cd ./Kauppalista/env/ && gunicorn kauppalista:app'
 
